@@ -1,0 +1,10 @@
+const constants = {
+  ACTION: {
+    DELETE_PRODUCT: "DELETE_PRODUCT",
+    ADD_PRODUCT_COUNT: "ADD_PRODUCT_COUNT",
+    REMOVE_PRODUCT_COUNT: "REMOVE_PRODUCT_COUNT",
+    CHANGE_WISH_LIST: "CHANGE_WISH_LIST",
+  },
+};
+
+export default constants;

@@ -9,7 +9,7 @@ const Checkout = () => {
   const totalAmount = amount + shipping;
 
   return (
-    <div className="flex sm:mt-6 flex-col">
+    <div className="flex md:mt-6 flex-col">
       <div className="min-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow-md dark:bg-gray-800 dark:border-gray-700">
         <h5 className="mb-4 text-xl font-bold tracking-tighter w-72 text-gray-900 w-dark:text-white">
           The total amount of

@@ -50,7 +50,7 @@ const ProductList = () => {
         </SweetAlert>
       </div>
 
-      <div className="flex m876:text-xs justify-between l1148:mx-0 mx-28 my-8 mt-32 md:flex-col md:mx-4  ">
+      <div className="flex justify-between l1148:mx-0 mx-28 my-8 mt-32 md:flex-col md:mx-4  ">
         <Product onDelete={onDelete} changeWishList={handleChangeWishList} />
         <Checkout />
       </div>

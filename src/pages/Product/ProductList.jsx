@@ -25,7 +25,7 @@ const ProductList = () => {
   const onConfirm = () => {
     setShowAlert(false);
     dispatch(deleteProduct(id));
-    toast.success(`${title} deleted!`, {
+    toast.success(`${title} deleted !`, {
       position: "top-right",
       autoClose: 5000,
       hideProgressBar: false,

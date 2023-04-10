@@ -17,7 +17,7 @@ const Product = ({ onDelete, changeWishList }) => {
           Cart {`(${totalCart} items)`}
         </h5>
         {productList.length === 0 ? (
-          <div>Data Product Empty...</div>
+          <div>Data Product Empty . . .</div>
         ) : (
           productList.map((item, index) => (
             <Fragment key={index}>
